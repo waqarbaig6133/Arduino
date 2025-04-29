@@ -1,3 +1,13 @@
+## New Project
+I like to code in Vim, so open it in Vim.
+
+```
+arduino-cli sketch new myproject   # Create a new sketch (optional)
+vim myproject/myproject.ino         # Edit it with Vim
+arduino-cli compile --fqbn arduino:avr:uno myproject
+arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno myproject
+
+```
 
 ## LED time preference
 ![image](https://github.com/waqarbaig6133/Arduino/assets/140295418/8ca18bc9-d6e2-433a-8973-7d3f541e6ae8)
