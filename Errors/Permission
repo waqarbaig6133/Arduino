@@ -1,0 +1,9 @@
+avrdude: ser_open(): can't open device "/dev/ttyACM0": Permission denied
+Failed uploading: uploading error: exit status 1
+
+
+sudo usermod -aG dialout $USER
+
+if dialout doesn't exit then use uucp
+
+then reboot
